@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbanner{
+    background-image: url("../img/car10.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+ 
+}
+
+body .btn{
+  background-color:#5f35ee;
+ margin-left: 5px;
+}
+
+body .newTitle{
+  color: #FF6D28;
+}
+body h1,h2{
+    font-family: 'Libre Caslon Display', serif;
+   color:#140a4e; ;
+  }
+  body h2,h3{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 30px;
+  }
+  body p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body h5,h4{
+    font-family: 'Raleway', sans-serif;
+    color: blue;
+  }
+  #firstSection .buy{
+    width: 120px;
+    height: 40px;
+    }
+.mainbanner .banner{
+    width: 100%;
+    height: 50vh;
+    background-color: #4f35d0ae;
+}
+.mainbanner h1{
+  color:white;
+}
+.title{
+    transform: translateY(50%);
+    color: white;
+}
+.navbar-toggler-icon{
+  color: red;
+
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color:#4c30e2 ;
+}
+#footer h3{
+    color:white;
+ }
+ #footer p{
+    color: white;
+ }
+ #footer h2{
+    color:white;
+ }
+ #firstSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/vecteezy_background-white_fj1220.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ #secondSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ #firstSection .col-md-7{
+    -webkit-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    margin: 0 2px;
+    padding-top: 10px;
+ }
+ #firstSection .col-md-7 .divOne{
+       width: 30%;
+      border-left: 2px solid black;
+ }
+ #thirdSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+ }
+ #thirdSection .col-md-3{
+    -webkit-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    margin-top: 20px;
+  transition: 0.5s;
+
+
+ }
+ #thirdSection .col-md-3:hover{
+transform: translateX(-30px);
+ }
+ #secondSection .col-md-3{
+    -webkit-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    margin-top: 20px;
+  transition: 0.5s;
+
+
+ }
+ 
+
+ #client .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background: #4C30E2;
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+#client.card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+ #client.card:hover .content {
+	transform: translateY(-20px);
+}
+
+#client .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+#client .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#client .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+#client .card .content .contentBx{
+
+}
+#client .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+#client .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+ 
+}
+
+#client .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+#client .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+#client .card .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  #firstSection .divOne p,h5 {
+    font-size: 10px;
+  }
+}
+#client{
+padding-bottom: 60px;
+  padding-top: 60px;
+}

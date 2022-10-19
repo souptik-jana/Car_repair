@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1,h2{
+    font-family: 'Libre Caslon Display', serif;
+   
+  }
+  body h2,h3{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 30px;
+  }
+  body p{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body h5,h4{
+    font-family: 'Raleway', sans-serif;
+    color: blue;
+  }
+
+  body .btn{
+    background-color:#5f35ee;
+   margin-left: 5px;
+}
+
+body .newTitle{
+    color: #FF6D28;
+}
+
+body .error{
+    color:red;
+}
+.navbar-toggler-icon{
+    color: red;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainbanner{
+    background-image: url("../img/bike.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+ 
+}
+
+.secondBanner{
+    background-image: url("../img/banner10.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+  height: 70vh;
+
+}
+.mainbanner .banner{
+    width: 100%;
+    height: 50vh;
+    background-color: #4f35d0ae;
+}
+.title{
+    transform: translateY(50%);
+    color: white;
+}
+#firstSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#firstSection .col-md-3{
+    -webkit-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px -1px 14px -1px rgba(0,0,0,0.75);
+    margin: 5px 2px;
+padding-top: 10px;
+
+}
+#firstSection .col-md-3 img{
+    color: #4c30e2;
+}
+#secondSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#secondSection img{
+    border-radius: 10px;
+}
+#sectionThree{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color:#4c30e2 ;
+}
+#footer h3{
+    color:white;
+ }
+ #footer p{
+    color: white;
+ }
+ #footer h2{
+    color:white;
+ }
+ 
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+}

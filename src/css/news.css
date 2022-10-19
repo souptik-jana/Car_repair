@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbanner{
+    background-image: url("../img/car10.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+ 
+}
+body .btn{
+	background-color:#5f35ee;
+   margin-left: 5px;
+  }
+  .navbar-toggler-icon{
+    color: red;
+  
+}
+
+.mainbanner .banner{
+    width: 100%;
+    height: 50vh;
+    background-color: #4f35d0ae;
+}
+.title{
+    transform: translateY(50%);
+    color: white;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color:#4c30e2 ;
+}
+#footer h3{
+    color:white;
+ }
+ #footer p{
+    color: white;
+ }
+ #footer h2{
+    color:white;
+ }
+ 
+body h1,h2{
+    font-family: 'Libre Caslon Display', serif;
+   
+  }
+  body h2,h3{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 30px;
+  }
+  body p{
+    font-family: 'Montserrat', sans-serif;
+  }
+   
+  body h5,h4{
+    font-family: 'Raleway', sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#news{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+#news .row{
+    padding-top: 20px;
+}

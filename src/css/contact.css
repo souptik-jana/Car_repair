@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbanner{
+    background-image: url("../img/banner-general-default.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+ 
+}
+
+body h1,h2{
+    font-family: 'Libre Caslon Display', serif;
+   
+  }
+  body h2,h3{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 30px;
+  }
+  body p{
+    font-family: 'Montserrat', sans-serif;
+  }
+   
+  body h5,h4{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  body .btn{
+    background-color:#5f35ee;
+   margin-left: 5px;
+}
+
+body .newTitle{
+    color: #FF6D28;
+}
+body .error{
+    color:red;
+}
+.mainbanner .banner{
+    width: 100%;
+    height: 50vh;
+    background-color: #4f35d0ae;
+}
+.title{
+    transform: translateY(50%);
+    color: white;
+}
+.navbar-toggler-icon{
+    color: red;
+  
+}
+
+
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color:#4c30e2 ;
+}
+#footer h3{
+    color:white;
+ }
+ #footer p{
+    color: white;
+ }
+ #footer h2{
+    color:white;
+ }
+ .myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#emergency{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+#emergency h3{
+    font-size: 50px;
+    color: #150050;
+}
+#emergency .col-md-6{
+    box-shadow: 3px 0px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 12px 0px rgba(0,0,0,0.75);
+padding-top: 30px;
+padding-bottom: 40px;
+border-radius: 10px;
+}
+#firstSection{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
